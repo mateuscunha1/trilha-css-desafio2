@@ -1,0 +1,167 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgba(249, 249, 249, 1);
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 72px;
+    padding: 0px, 24px, 0px, 24px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+
+}
+
+.header-direita{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 169px;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 2rem;
+
+}
+
+.pesquisa{
+    width: 525px;
+    height: 52px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.searchbar{
+    
+
+}
+
+#search{
+    width: 452px;
+    height: 52px;
+    border: none;
+}
+
+.lupa{
+    display: flex;
+    width: 74px;
+    height: 52px;
+    flex: content;
+
+}
+.botao {
+    width: 74px;
+    background-color: rgba(248, 248, 248, 1);
+    border:  1px solid rgba(204, 204, 204, 1);
+}
+
+.header-esquerda{
+    display: flex;
+    width: 190px;
+    height: 72px;
+    position: relative;
+    left: 2rem;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    left: 32px;
+}
+
+.pagina{
+    display: flex;
+    width: 1731px;
+    margin: auto;
+}
+
+.principal{
+    width: 1280px;
+    height: 1220px;
+    position: relative;
+    left: 1%;
+    top: 28px;
+}
+.video{
+    width: 1280px;
+    height: 720px;
+    background-image: url(./imagens/video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.titulo{
+    margin: 1rem 0px;
+}
+
+.inscrever{
+    width: 1172px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.visualizacoes{
+    padding: 1rem 0px;
+}
+
+.descricao{
+    width: 663px;
+    height: 83px;
+}
+p{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(81, 81, 81, 1);
+}
+
+.lista{
+    width: 479px;
+    height: 1219px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 3%;
+    top: 28px;
+    
+}
+
+.lista-video{
+    width: 479px;
+    height: 117px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.tamanho-video{
+    height: 117px;
+    width: 208px;
+    margin-right: 1.5rem;;
+}
+.tamanho-video img{
+    height: 117px;
+    width: 208px;
+}
+.titulo-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
